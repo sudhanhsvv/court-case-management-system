@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# User uploads and private documents
+/storage/documents/*
+!/storage/documents/.gitkeep
+
+# Database backups
+/storage/backups/*
+!/storage/backups/.gitkeep
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
