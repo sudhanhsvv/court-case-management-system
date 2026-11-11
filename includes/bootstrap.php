@@ -1,5 +1,13 @@
 <?php
 
+// Base URL of the CCMS application.
+define('BASE_URL', '/Court%20Case%20Management%20System');
+
+// Apply basic HTTP security headers.
+header('X-Frame-Options: SAMEORIGIN');
+header('X-Content-Type-Options: nosniff');
+header('Referrer-Policy: strict-origin-when-cross-origin');
+
 // Prevent direct access to this file.
 if (basename($_SERVER['SCRIPT_FILENAME']) === basename(__FILE__)) {
     http_response_code(403);
