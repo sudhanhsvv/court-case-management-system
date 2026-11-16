@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap');
 
 /* =========================================
    ROOT VARIABLES
@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
     background: var(--black);
     color: var(--ivory);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .login-page {
@@ -113,7 +113,7 @@ body {
 }
 
 .login-content h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Serif 4', serif;
     font-size: clamp(36px, 4vw, 52px);
     line-height: 1.18;
     font-weight: 500;
@@ -140,7 +140,7 @@ body {
     position: absolute;
     top: -115px;
     right: -25px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Serif 4', serif;
     font-size: 190px;
     color: rgba(197, 164, 109, 0.045);
     pointer-events: none;
