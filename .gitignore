@@ -28,3 +28,16 @@
 .DS_Store
 Thumbs.db
 /config/database.php
+
+# Development tools - keep out of public repository
+.agent/
+.agents/
+.gemini/
+.gsd/
+adapters/
+scripts/
+
+GSD-STYLE.md
+PROJECT_RULES.md
+VERSION
+model_capabilities.yaml
