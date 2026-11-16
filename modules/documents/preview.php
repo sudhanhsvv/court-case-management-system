@@ -27,7 +27,7 @@ if (!$document) {
 // Validate the server-controlled filename.
 $filename = $document['stored_filename'];
 
-if (!preg_match('/\A[a-f0-9]{32}\.pdf\z/', $filename)) {
+if (!preg_match('/\A[a-zA-Z0-9_-]+\.pdf\z/', $filename)) {
     http_response_code(400);
     exit('Invalid stored filename.');
 }
